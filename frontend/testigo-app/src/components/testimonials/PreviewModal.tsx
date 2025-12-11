@@ -7,8 +7,8 @@ type PreviewModalProps = {
   url?: string;
   isYoutube?: boolean;
   previewType?: "video" | "imagen";
-  content: string;
-  author:string
+  content?: string;
+  author?:string
 };
 
 const PreviewModal = ({ open, onClose, url, isYoutube, previewType, content, author }: PreviewModalProps) => {
